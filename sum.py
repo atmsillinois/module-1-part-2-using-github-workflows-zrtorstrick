@@ -5,3 +5,4 @@ def sum_of_integers(a, b):
     if not isinstance(b, int):
         raise TypeError(f'"{b}" is not an integer', b)
 
+    return a+b
