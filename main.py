@@ -6,6 +6,7 @@ Print their sum or error running sum function
 
 from sum import sum_of_integers
 
+
 def main():
     try:
         a = int(input("Enter the first integer: "))
@@ -17,6 +18,7 @@ def main():
         return
     except TypeError as e:
         print(str(e.args[0]))
+
 
 if __name__ == "__main__":
     main()
