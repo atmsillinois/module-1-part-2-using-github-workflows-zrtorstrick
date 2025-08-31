@@ -1,13 +1,23 @@
 """
-Accept two integers
-Print their values
-Print their sum or error running sum function
+This module implements the first HW assignment for UIUC, ATM 523, Fall 2025.
+
+Module 1 Homework
+ATMS 523
+Fall 2025
+Zachary Torstrick
 """
 
 from sum import sum_of_integers
 
 
 def main():
+    """
+    Prompt the user for two integers and print the result of sum_of_integers.
+
+    The function handles:
+    - ValueError: if input cannot be converted to int
+    - TypeError: if sum_of_integers raises an error due to invalid input types
+    """
     try:
         a = int(input("Enter the first integer: "))
         b = int(input("Enter the second integer: "))
