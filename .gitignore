@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+atms523/
+.env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pip tools
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy / other tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db

@@ -1,7 +1,11 @@
-# Create a README.md
+# Overview
 
-If you need help with `Markdown`, check out [The Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)!
+This repository contains the module 1 (part 2) homework assignment for ATMS523, Fall 2025, at the University of Illinois Urbana Champaign. It contains a single program that computes the sum of two integers that a user inputs. It has simple validation and error handling. It is intended to demonstrate basic working knowledge of Python and GitHub.
 
-What should a good README.md look like? Check out these [guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+# Running the program
 
-Did you add an open source software license?
+`python main.py`
+
+# Running the tests
+
+`pytest test_sum_of_integers.py`
